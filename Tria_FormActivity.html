@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML Form</title>
+</head>
+<body>
+<h1>HTML Form</h1>
+<form action="#" method="post">
+
+    <!-- Codes for Personal Information -->
+    <fieldset>
+        <legend>Personal Information</legend>
+
+        <p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </p>
+
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </p>
+    </fieldset>
+
+    <br>
+
+    <!--  Codes for Gender -->
+    <fieldset>
+        <legend>Gender</legend>
+
+        <p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <br>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <br>
+
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+        </p>
+    </fieldset>
+
+    <br>
+
+    <!--  Codes for  5 Hobbies -->
+    <fieldset>
+        <legend>Hobbies</legend>
+
+        <p>
+            <input type="checkbox" id="reading" name="hobbies" value="reading">
+            <label for="reading">Reading</label>
+            <br>
+
+            <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+            <label for="traveling">Traveling</label>
+            <br>
+
+            <input type="checkbox" id="sports" name="hobbies" value="sports">
+            <label for="sports">Sports</label>
+            <br>
+
+            <input type="checkbox" id="music" name="hobbies" value="music">
+            <label for="music">Music</label>
+            <br>
+
+            <input type="checkbox" id="cooking" name="hobbies" value="cooking">
+            <label for="cooking">Cooking</label>
+
+        </p>
+    </fieldset>
+
+    <br>
+
+    <!-- Codes for Comments -->
+    <p>
+        <label for="comments">Comments:</label>
+        <br>
+        <textarea id="comments" name="comments" rows="5" cols="40"></textarea>
+    </p>
+
+    <!-- Code for the Submit Button -->
+    <p>
+        <input type="submit" value="Submit">
+    </p>
+
+</form>
+</body>
+</html>
